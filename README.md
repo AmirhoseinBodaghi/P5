@@ -1,5 +1,5 @@
 # P5
-An Analysis on Newly Emerged Rumors on Twitter
+^^^^^ An Analysis on Newly Emerged Rumors on Twitter ^^^^^
 
 This is an eleven-stage project that has been devised to first make a newyly-emerged rumor dataset out of Twitter and then do a set of analysis (Micro + Macro) on it. These eleven stages (from S4 to S14), each one comes with a distinct python code with the following short decription for each one :
 
@@ -17,4 +17,10 @@ S8 :  This code by getting the S7 output as its input, extracts all the unigrams
 
 S9 : This code by getting the S8 output as its input, and using the random forest algorithm, learns the machine to be able to annotate the rest of the tweets. Indeed by running this code we would have all the tweets anotated and finally the accuracy of the dataset would be calculated by the code. The output of this code is final anotated excell file of the dataset.
 
-S10 :
+S10 : This code gets the dataset excell file (the output of S9) and performs a microscopic analysis particularly on the user types. At first, it devides users into six categories; rumor tweeter, anti-rumor tweeter, rumor retweeter, anti-rumor retweeter, rumor-related tweeter, rumor-related retweeter. The last two categories correspondingly refer to the tweeters and retweeters of what that do not support rumor but are related to it, for example those ones that question about the rumor. And then calculates the user dynamics such as : ratio of following to follower, number of days of membership, number of published tweets per day, and compound score for the description sentence in the users' profiles, both for individual users and the user categories.
+
+S11 : This code by getting the S10 output as its input, choose a portion of the users from each category of the sextuple categories and then by crawling the last 200 tweets\retweets of them calculate the user dynamics such as : percentage of tweets (toward all retweets among the last 200 tweet/retweet), the average of like per tweet, the average of like per tweet per follower, the average of retweet per tweet, the average of retweet per tweet per follower.  
+
+S12 : This code by getting the S11 output as its input, calculates the etta squared correltation between the user categories and the values of user dynamics such as percentage of tweets (toward all retweets among the last 200 tweet/retweet), the average of like per tweet, the average of like per tweet per follower, the average of retweet per tweet, the average of retweet per tweet per follower. 
+
+S13 :
