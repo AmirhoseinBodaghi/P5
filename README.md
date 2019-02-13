@@ -1,5 +1,5 @@
 # P5
-^^^^^ An Analysis on Newly Emerged Rumors on Twitter ^^^^^
+^^^^^ An Analysis on Newly Emerged Rumors in Twitter ^^^^^
 
 This is a ten-stage project that has been devised to first make a newly-emerged rumor dataset out of Twitter and then do a set of analysis (Micro + Macro) on it. These eleven stages (from S4 to S13), each one comes with a distinct python code with the following short description for each one:
 
